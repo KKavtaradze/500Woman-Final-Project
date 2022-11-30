@@ -1,15 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="logo-div">
+        <a href="index.html">
+          <img class="logo" src="images/logo.svg" alt="logo-pahu" />
+        </a>
+      </div>
+      <nav class="navigation" id="navigation">
+        <ul class="nav-ul">
+          <li>
+            <a class="nav-a" href="#">SHOP NOW</a>
+          </li>
+          <li>
+            <a class="nav-a" href="#">OUR DESIGNERS</a>
+          </li>
+          <li>
+            <a class="nav-a" href="#">BLOG</a>
+          </li>
+          <li>
+            <a class="nav-a" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-bar" id="burgerBar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <section>
+      <div class="banner">
+        <img
+          class="banner-image"
+          src="images/main-banner.png"
+          alt="banner-paho"
+        />
+        <div class="banner-wrapper" id="bannerNone">
+          <div class="line"></div>
+          <h3 class="welcome-to">Welcome To</h3>
+          <h3 class="paho-design">Pahu Design</h3>
+          <h1 class="moto">YOU ARE IN GOOD HAND WITH US</h1>
+        </div>
+      </div>
+    </section>
+    <!-- black section -->
+    <section class="section1">
+      <h2 class="why">WHY CHOOSE US</h2>
+      <div class="design-wrap">
+        <div class="slim-line line1"></div>
+        <img class="rectangle" src="images/rectenge.svg" alt="rectangle" />
+        <div class="slim-line"></div>
+      </div>
+      <!-- reasons list with armchair image -->
+      <div class="reasons-wrapper">
+        <div class="reasons-wrapper-child">
+
+          <!-- reason 1 -->
+
+          <div class="reason-box">
+            <div class="text-wrapper tw-left">
+              <h3 class="h3-reasons">MORDERN DESIGN</h3>
+              <p class="reason-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="smart-object">
+              <img class='smart-object-img' src="images/smart-object1.svg" alt="modern-design" />
+            </div>
+          </div>
+
+          <!-- reasons 2 -->
+          <div class="reason-box">
+            <div class="text-wrapper tw-left">
+              <h3 class="h3-reasons">UNIQUE QUALITY</h3>
+              <p class="reason-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <img src="images/smart-object2.svg" alt="modern-design" />
+          </div>
+        </div>
+        <!-- armchair pic -->
+
+        <div class="armchair-div">
+          <img class="armchair-pic" src="images/armchair.png" alt="armchair" />
+        </div>
+
+        <div class="reasons-wrapper-child rwc-right">
+          <!-- reason 3 -->
+          <div class="reason-box">
+            <img src="images/smart-object3.svg" alt="modern-design" />
+            <div class="text-wrapper tw-right">
+              <h3 class="h3-reasons">HONEST PRICES</h3>
+              <p class="reason-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+          <!-- reason 4 -->
+          <div class="reason-box">
+            <img src="images/smart-object4.svg" alt="modern-design" />
+            <div class="text-wrapper tw-right">
+              <h3 class="h3-reasons">GREAT SUPPORT</h3>
+              <p class="reason-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
