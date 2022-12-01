@@ -1,7 +1,7 @@
 "use strict";
 
-let burgerBar = document.getElementById("burgerBar");
-let navigation = document.getElementById("navigation");
+let burgerBar = document.getElementById("burgerBarID");
+let navigation = document.getElementById("navigationID");
 burgerBar.addEventListener("click", function () {
   navigation.classList.toggle("navDrop");
   burgerBar.classList.toggle("barMove");
