@@ -12,25 +12,25 @@ burgerBar.addEventListener("click", function () {
 let data = [
   {
     id: 1,
-    imageUrl: "../images/living-room1.png",
+    imageUrl: "images/living-room1.png",
     title: "MODERN LIVING ROOM",
     description: "INTERIOR DESIGN",
   },
   {
     id: 2,
-    imageUrl: "../images/living-room2.png",
+    imageUrl: "images/living-room2.png",
     title: "MODERN LIVING ROOM",
     description: "INTERIOR DESIGN",
   },
   {
     id: 3,
-    imageUrl: "../images/living-room3.png",
+    imageUrl: "images/living-room3.png",
     title: "MODERN LIVING ROOM",
     description: "INTERIOR DESIGN",
   },
   {
     id: 4,
-    imageUrl: "../images/living-room4.png",
+    imageUrl: "images/living-room4.png",
     title: "MODERN LIVING ROOM",
     description: "INTERIOR DESIGN",
   },
