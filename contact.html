@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
-  <body class="blog-body">
+  
     <!-- header start -->
     <header class="header" id="headerID">
         <!-- logo start -->
         <div class="logo-div">
           <a href="index.html">
-            <img class="logo-img" src="images/logo.svg" alt="logo-pahu" />
+            <img class="logo-img" src="images/logo.svg" alt="logo-pahu">
           </a>
         </div>
         <!-- logo end -->
@@ -35,62 +35,172 @@
               <a class="nav-a" href="blog.html">BLOG</a>
             </li>
             <li>
-              <a class="nav-a" href="contact.html">CONTACT</a>
+              <a class="nav-a active" href="contact.html">CONTACT</a>
             </li>
           </ul>
         </nav>
-        <!-- navigation end -->
+      
         <!-- burger bar start -->
         <div class="burger-bar" id="burgerBarID">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
-      <!-- burger bar end -->
+    
       <!-- header end -->
 
 
+<!-- form section -->
+<section>
 
-
-      
-<div class="form-wrapper">
-    <div class="form-img-text">
-        <img class="form-img" src="images/designers.png" alt="form">
-        <div class="form-description-wrapper">
-            <h3 class="form-h3">CORPORATE DEALS</h3>
-            <p>For corporate deals submit your contact details and our sales manager will reach out to you real quick.</p>
-            </div>
+  <div class="contact-wrapper">
+    <img class=img-form src="images/designers.png" alt="form-baclground">
+    <h2 class=h2-registration-form>Registration form</h2>
+    <p class="p-registration-form">Log in to your account and strat shopping rightaway! Special prices for registered members.</p>
+  <form action="#" class="form" id="registrationForm">
+    <div>
+      <label class="label"  for="usernamefield">Username:</label>
+      <input type="text" name="username" id="usernamefield" placeholder="type your username">
+      <span class="error-text" id="error_username"></span>
     </div>
-    
-
-<div class="form">
-    <h3> ONLY FOR COMPANIES</h3>
-<form action="#">
-    <label class="label" for="Pname">Full Name of a Contact Person:</label><br>
-    <input  class="input" type="text" id="Pname" name="Pname" value="Type in"><br>
-    <label class="label" for="CID">Company ID:</label><br>
-    <input class="input" type="text" id="CID" name="lname" value="Type in"><br><br>
-    <label class="label" for="email">Email:</label><br>
-    <input class="input" type="text" id="email" name="email" value="Type in"><br><br>
-    <label class="label" for="tel">Tel:</label><br>
-    <input class="input" type="text" id="tel" name="tel" value="Type in"><br><br>
-    <input type="submit" value="Submit">
-    </form>
+<div>
+  <label class="label"  for="passwordfield">Password:</label>
+  <input type="password" name="passwordfield" id="passwordfield" placeholder="type your password">
+  <span class="error-text" id="error_password"></span>
+ <i class="fa-regular fa-eye-slash" id="eyeIcon"></i>
+</div>
+<div>
+  <label class="label"  for="passwordRepeat">Repeat Password:</label>
+  <input type="password" name="passwordRepeat" id="passwordRepeat" placeholder="repeat your password" >
+  <span class="error-text" id="error_passwordRepeat"></span>
+</div>
+<div>
+  <input type="checkbox" name="agreeTerms" id="agreeTerms">
+  <span class="error-text" id="error_agreeTerms"></span>
+  <label class="label"
+  for="agreeTerms"> I agree terms and conditions </label>
+</div>
+<button class="submit-button"
+type="submit"> Submit </button>
+  </form>
 
 </div>
 
-
 </div>
-</>
+</section>
 
-
-
-
-
-
-
-
+<footer>
+  
+  <div class="rows">
+    <!-- 1st element -->
+    <div class='line-marger'>
+      
+      <div class="vertical-line"> </div>
+  
+    <div class="call-us-now">
+      <h4 class="footer-h4">CALL US NOW</h4>
+      <div class="footer-text">
+      <span class='footer-span'>Office telephone:</span>
+      <a class='call' href="tel:(251)546-9442">(251)546-9442</a>
+    </div>
+      <div class="footer-text">
+      <span class='footer-span'>Hotline:</span>
+      <a class='call' href="906-2721">906-2721</a>
+    </div>
+    </div>
+    </div>
+    <!-- 1st element end -->
+  
+    <!-- 2nd element -->
+    <div class='line-marger'>
+      <div class="vertical-line"> </div>
+    <div class="call-us-now">
+      <h4 class="footer-h4">COME VISIT US</h4>
+      <div class="footer-text">
+      <span class='footer-span'>Address:</span>
+      <a class='call' href="https://goo.gl/maps/A79P4Z3H3AKyJvm76">123 6th St. Melbourne, FL 32904</a>
+    </div>
+      
+    </div>
+  </div>
+  
+    <!-- 2nd element -->
+  
+    <!-- 3rd element -->
+    <div class='line-marger'>
+      <div class="vertical-line"> </div>
+    <div class="call-us-now">
+      <h4 class="footer-h4">SEND A MESSAGE</h4>
+      <div class="footer-text">
+      <span class='footer-span'>Email:</span>
+      <a class='call' href="mailto:pahudesign@pahu.vn">pahudesign@pahu.vn</a>
+    </div>
+    <div class="footer-text">
+      <span class='footer-span'>Inquiries:</span>
+      <a class='call' href="mailto:support@pahu.vn">support@pahu.vn</a>
+    </div>
+      
+    </div>
+    </div>
+    <!-- 3rd element -->
+  
+  <!--4th element  -->
+  <div class=line-marger>
+  <div>
+    <h4 class="footer-h4-hw">HOURS WORK</h4>
+    <div class="footer-text">
+    <p class='footer-span-hw'>Monday - Friday: 08:00 am - 17:00 pm.</p>
+    <div class="footer-text">
+    <p class='footer-span-hw'>Saturday: 09:00 am - 12h30 pm.</p>
+  </div>
+  </div>
     
-  </body>
-  <script src="script.js"></script>
+  </div>
+  </div>
+  <!-- 4th element -->
+  
+  
+  
+  <!-- 5th element -->
+  <div class=footer-box-wrapper>
+    <h4 class="footer-h4-hw">NEWSLETTER</h4>
+    <!-- form -->
+    <p class='footer-span-hw'>Sign up to get exclusive offers from our favorite brands and to be well up in the news.</p>
+    </div>
+  
+  
+  <!-- 6th element -->
+  <div class="footer-box-wrapper">
+  <div class=logo-small>
+    <a  href="index.html">
+      <img class=logo-small-img src="images/logo.svg" alt="logo-pahu" />
+    </a>
+  </div>
+  <div class="socials">
+    <div class="icon">
+    <a href="https://www.facebook.com/">
+    <i class="fa-brands fa-facebook-f"></i></a>
+  </div>
+  <div class="icon">
+    <a href="https://www.google.com/">
+    <i class="fa-brands fa-google-plus-g"></i></a>
+  </div>
+  <div class="icon">
+    <a href="https://twitter.com/?lang=en">
+    <i class="fa-brands fa-twitter"></i></a>
+  </div>
+  <div class="icon">
+    <a href="https://www.youtube.com/">
+    <i class="fa-brands fa-youtube"></i></a>
+  </div>
+  </div>
+  </div>
+  
+  <!-- 6th element -->
+  
+  </div>
+  
+  </footer>
+  
+  <script src="formscript.js"></script>
   </body>
 </html>

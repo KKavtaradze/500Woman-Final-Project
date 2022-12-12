@@ -24,7 +24,7 @@
           <img class="logo-img" src="images/logo.svg" alt="logo-pahu" />
         </a>
       </div>
-      <!-- logo end -->
+      =
       <!-- navigation start-->
       <nav class="navigation" id="navigationID">
         <ul class="nav-ul">
@@ -32,24 +32,22 @@
             <a class="nav-a" href="shop.html">SHOP NOW</a>
           </li>
           <li>
-            <a class="nav-a" href="designers.html">OUR DESIGNERS</a>
+            <a class="nav-a active" href="designers.html">OUR DESIGNERS</a>
           </li>
           <li>
             <a class="nav-a" href="blog.html">BLOG</a>
           </li>
           <li>
-            <a class="nav-a" href="#">CONTACT</a>
+            <a class="nav-a" href="contact.html">CONTACT</a>
           </li>
         </ul>
       </nav>
-      <!-- navigation end -->
+
       <!-- burger bar start -->
       <div class="burger-bar" id="burgerBarID">
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
-    <!-- burger bar end -->
-    <!-- header end -->
 
     <section>
       <h2 class="our-designers">WHY CHOOSE US</h2>
@@ -59,7 +57,7 @@
         <img class="rectangle" src="images/rectenge.svg" alt="rectangle" />
         <div class="slim-line"></div>
       </div>
-      <!-- slim line design end -->
+
       <div class="all-designers">
         <!-- designer 1 -->
         <div>
@@ -96,8 +94,25 @@
           </div>
         </div>
       </div>
+      <div class="show-more-designers">
+        <a href="#">
+          <h3 class="h3-show-more-designers" id="h3-show-more-designers">
+            SHOW MORE <i class="fa-solid fa-circle-arrow-right"></i>
+          </h3>
+        </a>
+        <button class="vanish" id="left">
+          <i class="fa-solid fa-circle-arrow-left"></i>
+        </button>
+        <button class="vanish" id="right">
+          <i class="fa-solid fa-circle-arrow-right"></i>
+        </button>
+      </div>
+      <div id="more-designers">
+        <ul id="designers-server"></ul>
+        <div id="error-box"></div>
+      </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="designers.js"></script>
   </body>
 </html>

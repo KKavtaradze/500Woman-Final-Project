@@ -1,289 +1,291 @@
+@media (max-width: 1400px) {
+  .section-third-wrapper {
+    justify-content: center;
+    background-color: #f9fafc;
+    padding-bottom: 30px;
+  }
+
+  .vietnam-furniture {
+    width: 341px;
+    object-fit: cover;
+    margin: 30px;
+  }
+  .airplane {
+    width: 341px;
+    height: 341px;
+    object-fit: cover;
+    margin: 30px;
+  }
+  .sofa-design {
+    width: 341px;
+    height: 341px;
+    object-fit: cover;
+    margin: 30px;
+  }
+
+  .jars {
+    width: 341px;
+    height: 341px;
+    object-fit: cover;
+    margin: 30px;
+  }
+  .apples {
+    width: 341px;
+    height: 341px;
+    object-fit: cover;
+    margin: 30px;
+    border: solid;
+    border-color: #e9eef1;
+  }
+}
+
+@media (max-width: 1220px) {
+  .vietnam-furniture {
+    height: 341px;
+  }
+}
 
 @media (max-width: 1200px) {
-    h1 {
-        font-size: 55px;
-      }
-      h2 {
-        font-size: 35px;
-      }
-      
-      h4 {
-        font-size: 20px;
-      }
-      h5 {
-        font-size: 15px;
-      }
-      h6 {
-        font-size: 17px;
-      }
-    }
+  h5 {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 17px;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .smart-object-img {
+    width: 100%;
+  }
+  .armchair-div {
+    width: 100%;
+  }
+
+  .top-images-wrapper {
+    justify-content: center;
+  }
+  .bottom-images-wrapper {
+    justify-content: center;
+  }
+  .living-rooms {
+    display: none;
+  }
+  .slider {
+    display: block;
+    position: relative;
+  }
+  .button-left {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 7;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+  .button-right {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 7;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+  }
 }
- 
+
+@media (max-width: 1110px) {
+  .navigation {
+    display: none;
+  }
+  .burger-bar {
+    display: block;
+    z-index: 100;
+  }
+
+  .navDrop {
+    display: block;
+    background-color: #181817;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    flex-wrap: wrap;
+    opacity: 80%;
+  }
+  .nav-ul {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  .logo-none {
+    display: none;
+  }
+}
 
 @media (max-width: 1100px) {
-    h1 {
-        font-size: 45px;
-      }
-      h2 {
-        font-size: 30px;
-      }
-      
-      h4 {
-        font-size: 15px;
-      }
-      h5 {
-        font-size: 10px;
-      }
-      p {
-        font-size: 12px;
-      }
-      span {
-        font-size: 12px;
-      }
-      .nav-a {
-        font-size: 12px;
-      }
-    }
+  h5 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+  span {
+    font-size: 12px;
+  }
+}
 
 @media (max-width: 890px) {
-    h1 {
-        font-size: 35px;
-      }
-      h2 {
-        font-size: 22px;
-      }
-    
-      h4 {
-        font-size: 15px;
-      }
-      .shop-item {
-        width: 230px;
-        height: 300px;
-      }
-      
+  .banner-wrapper {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .headlines-wrapper {
+    flex-direction: column;
+  }
+  .welcome-to {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .paho-design {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .moto {
+    width: 100%;
+    text-align: center;
+  }
 
+  .shop-item {
+    width: 230px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 810px) {
-    .line-marger {
-        width: 45%;
-    }
+  .line-marger {
+    width: 45%;
+  }
 
-    .raws {
-        flex-wrap: wrap;
-    }
-    .footer-box-wrapper {
-        width: 45%;
-    }
-    .form-img-text {
-      display: none;
-    }
-   
+  .footer-box-wrapper {
+    width: 45%;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-input3 {
+    display: none;
+  }
 }
 
 @media (max-width: 710px) {
-    h1 {
-        font-size: 30px;
-      }
-      h2 {
-        font-size: 20px;
-      }
-     
-      h4 {
-        font-size: 15px;
-      }
-      .banner-image {
-        display: none;
-      }
-      .banner-image-mobile {
-        display: block;
-      }
-      .shop-item {
-        width: 200px;
-        height: 300px;
-       
-      }
-      h6 {
-        font-size: 15px;
-      }
-    
+  .shop-item {
+    width: 200px;
+    height: 300px;
+  }
+  h6 {
+    font-size: 15px;
+  }
 }
 
-@media (max-width: 605px) {
-    h1 {
-        font-size: 25px;
-      }
-      h2 {
-        font-size: 18px;
-      }
-      h4 {
-        font-size: 15px;
-      }
-    }
+@media (max-width: 570px) {
+  .logo-img {
+    width: 50%;
+  }
+  .fa-bars {
+    font-size: 20px;
+  }
+  .nav-a {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 530px) {
-    h1 {
-        font-size: 20px;
-      }
-      h2 {
-        font-size: 18px;
-      }
-      h3 {
-        font-size: 18px;
-      }
-      h4 {
-        font-size: 13px;
-      }
-      .fa-brands {
-        font-size: 13px;
-      }
-    
-      
-}
-
-@media (max-width: 415px) {
-    h1 {
-        font-size: 18px;
-      }
-      h2 {
-        font-size: 16px;
-      }
-     
-     
-}
-
-@media (max-width: 370px) {
-    h1 {
-        font-size: 17px;
-      }
-    h2 {
-        font-size: 15px;
-    }
-    
-     
-      
-}
-
-@media (max-width: 350px) {
-    h1 {
-        font-size: 15px;
-      }
-      h2 {
-        font-size: 13px;
-      }
-      
-      h4 {
-        font-size: 11px;
-      }
-      
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  @media (max-width:1200px) {
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
-    .smart-object-img {
-        width: 80%;
-    }
-    .armchair-div {
-        width: 50%;
-    }
+  .fa-brands {
+    font-size: 13px;
   }
-    
-
-  
-  @media (max-width: 1000px) {
-    .navigation {
-      display: none;
-    }
-    .burger-bar {
-      display: block;
-      z-index: 100;
-    }
-    .header {
-      height: 80px;
-    }
-    .navDrop {
-      display: block;
-      background-color: #181817;
-      width: 40%;
-      height: 30%;
-      position: fixed;
-      right: 0;
-      top: 80px;
-      flex-wrap: wrap;
-      opacity: 80%;
-    }
-    .nav-ul {
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    li {
-      margin-bottom: 15px;
-    }
-    
-    .barMove {
-      rotate: 90deg;
-    }
-    .logo-none {
-        display: none;
-      }
-    
-    }
-  
-  @media (max-width: 570px) {
-    .header {
-      height: 60px;
-    }
-    .navDrop {
-      top: 60px;
-    }
-  }
-  
-  @media (max-width: 520px) {
-    .navDrop {
-      width: 100%;
-      top: 60px;
-      height: 20%;
-    }
-    .banner-wrapper-none {
-      display: none;
-    }
-    
-  }
-  
-  @media (max-width: 380px) {
-   
-    .navDrop {
-      top: 30px;
-    }
 }
-.collection {
+
+@media (max-width: 400px) {
+  .vietnam-furniture {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .airplane {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .sofa-design {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .jars {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .apples {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .slider-input2 {
+    display: none;
+  }
+  .slide {
+    max-width: 320px;
+  }
+  .line-marger {
+    width: 35%;
+  }
+}
+
+@media (max-width: 380px) {
+  .collection {
     margin-top: 150px;
+  }
+  .h2-registration-form {
+    left: 20px;
+    width: 80%;
+  }
+  .p-registration-form {
+    left: 20px;
+    margin-top: 50px;
+  }
+  .form {
+    left: 150px;
+    margin-top: 50px;
+  }
 }
