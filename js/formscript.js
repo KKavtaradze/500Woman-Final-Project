@@ -17,7 +17,7 @@ registrationForm.addEventListener("submit", function (event) {
   let usernameValue = document.getElementById("usernamefield").value;
   if ((usernameValue == "") & (usernameValue.length < 2)) {
     errors.username =
-      "This field can not be empty and should be longer than 2 letters.";
+      "The input should be longer than 2 letters.";
   }
 
   let passwordValue = document.getElementById("passwordfield").value;

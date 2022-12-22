@@ -1,38 +1,55 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1400px) {
   .section-third-wrapper {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #f9fafc;
     padding-bottom: 30px;
   }
 
   .vietnam-furniture {
     width: 341px;
-    object-fit: cover;
-    margin: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-top: 30px;
+    margin-top: 30px;
+
   }
   .airplane {
     width: 341px;
     height: 341px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 30px;
   }
+  
   .sofa-design {
     width: 341px;
     height: 341px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 30px;
   }
 
   .jars {
     width: 341px;
     height: 341px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 30px;
   }
   .apples {
     width: 341px;
     height: 341px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 30px;
     border: solid;
     border-color: #e9eef1;
@@ -64,10 +81,14 @@
   }
 
   .top-images-wrapper {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .bottom-images-wrapper {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .living-rooms {
     display: none;
@@ -83,7 +104,9 @@
     z-index: 7;
     top: 50%;
     left: 5%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .button-right {
     width: 30px;
@@ -92,7 +115,9 @@
     z-index: 7;
     top: 50%;
     left: 95%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 
@@ -113,7 +138,8 @@
     position: fixed;
     right: 0;
     top: 80px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     opacity: 80%;
   }
   .nav-ul {
@@ -121,7 +147,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 
   li {
@@ -149,10 +177,15 @@
   .banner-wrapper {
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .headlines-wrapper {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .welcome-to {
     width: 100%;
@@ -225,40 +258,52 @@
   h4 {
     font-size: 20px;
   }
+  .h2-registration-form {
+    max-width: 250px;
+  }
+  .p-registration-form {
+    margin-top: 50px;
+  }
+  .form {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 530px) {
   .fa-brands {
     font-size: 13px;
   }
-}
 
-@media (max-width: 400px) {
   .vietnam-furniture {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .airplane {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .sofa-design {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .jars {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .apples {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .slider-input2 {
@@ -278,7 +323,8 @@
   }
   .h2-registration-form {
     left: 20px;
-    width: 80%;
+    
+  
   }
   .p-registration-form {
     left: 20px;
@@ -287,5 +333,6 @@
   .form {
     left: 150px;
     margin-top: 50px;
+    
   }
 }
